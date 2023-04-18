@@ -34,6 +34,7 @@ namespace Simple_API.SeedData
                         ReleaseDate = DateTime.Parse("1984-3-13"),
                         Genre = "Comedy",
                         AgeRating = "R",
+                        Score = "7/10",
                         Price = 8.99M
                     },
                     new Movie

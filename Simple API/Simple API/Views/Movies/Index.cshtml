@@ -34,10 +34,13 @@ A List of some movies i never watched
                 @Html.DisplayNameFor(model => model.Movies![0].Genre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies![0].Price)
+                @Html.DisplayNameFor(model => model.Movies![0].AgeRating)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies![0].AgeRating)
+                @Html.DisplayNameFor(model => model.Movies![0].Score)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies![0].Price)
             </th>
             <th></th>
         </tr>
@@ -56,10 +59,13 @@ A List of some movies i never watched
                     @Html.DisplayFor(modelItem => item.Genre)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Price)
+                    @Html.DisplayFor(modelItem => item.AgeRating)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.AgeRating)
+                    @Html.DisplayFor(modelÍtem => item.Score)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
